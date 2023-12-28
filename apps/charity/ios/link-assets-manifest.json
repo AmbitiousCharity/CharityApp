@@ -1,0 +1,37 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/PlaypenSans-Bold.ttf",
+      "sha1": "5c2782a51a7c61b89b3e09def1d1907f0b69bab7"
+    },
+    {
+      "path": "assets/fonts/PlaypenSans-ExtraBold.ttf",
+      "sha1": "5dac217c84e715e3ea79d66746693cc8a1638649"
+    },
+    {
+      "path": "assets/fonts/PlaypenSans-ExtraLight.ttf",
+      "sha1": "e3e3a80cb6c82053f64e3dd401269a8134b39c3c"
+    },
+    {
+      "path": "assets/fonts/PlaypenSans-Light.ttf",
+      "sha1": "925331f0fc313103a81e262f31d0c0ef1c6f8bb3"
+    },
+    {
+      "path": "assets/fonts/PlaypenSans-Medium.ttf",
+      "sha1": "ab77a8a7c3652e50224581819ac90a18d2eb132d"
+    },
+    {
+      "path": "assets/fonts/PlaypenSans-Regular.ttf",
+      "sha1": "dcba05dbde1a98a7a489cd104e8c41a462e917ea"
+    },
+    {
+      "path": "assets/fonts/PlaypenSans-SemiBold.ttf",
+      "sha1": "3482e93da798eb55cbc8b6abc0d687b1b9547c9b"
+    },
+    {
+      "path": "assets/fonts/PlaypenSans-Thin.ttf",
+      "sha1": "9d78a91c6a09710d4e52e4990653388218970e14"
+    }
+  ]
+}

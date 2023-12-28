@@ -1,14 +1,15 @@
 /* eslint-disable jsx-a11y/accessible-emoji */
+import { Onboarding } from '@charity/screens';
 import React, { useRef, useState } from 'react';
 import {
-  SafeAreaView,
-  StyleSheet,
-  ScrollView,
-  View,
-  Text,
-  StatusBar,
-  TouchableOpacity,
   Linking,
+  SafeAreaView,
+  ScrollView,
+  StatusBar,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
 } from 'react-native';
 import Svg, { G, Path } from 'react-native-svg';
 
@@ -18,6 +19,13 @@ export const App = () => {
 
   return (
     <>
+      <Onboarding />
+    </>
+  );
+
+  return (
+    <>
+      <Onboarding />
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
         <ScrollView

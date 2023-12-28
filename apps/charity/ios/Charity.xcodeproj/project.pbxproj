@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* CharityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CharityTests.m */; };
+		04959D888DA44BE3853F80EA /* PlaypenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B884352185E34C4FA3F19145 /* PlaypenSans-SemiBold.ttf */; };
+		08808E95DCA548D3B94DDAAE /* PlaypenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C6D6D9936D9406E94EE7F35 /* PlaypenSans-Regular.ttf */; };
 		0C80B921A6F3F58F76C31292 /* libPods-Charity.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-Charity.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		14E08DE8A67342AAB14101D0 /* PlaypenSans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46842F3DF39E4C6EB0259C44 /* PlaypenSans-Thin.ttf */; };
+		18A9BC204630423A9003DD37 /* PlaypenSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EDCE334EA89C499387EF904C /* PlaypenSans-Medium.ttf */; };
+		1EA04C2B96AF413A8D2C07DE /* PlaypenSans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 896CEF2EB35D4F389D14C950 /* PlaypenSans-ExtraLight.ttf */; };
+		5F3419561EAC4786B21A40D9 /* PlaypenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EBAB3C79F4F24B798C192371 /* PlaypenSans-ExtraBold.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-Charity-CharityTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-Charity-CharityTests.a */; };
+		7D273FAF49A54A6A9286238D /* PlaypenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D79B56392B554FF69A76190E /* PlaypenSans-Light.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		FCC09C023BED47ADB2F15A82 /* PlaypenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE9A0C6FCA1544EB9DBA2CA8 /* PlaypenSans-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,12 +46,20 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Charity/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-Charity-CharityTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Charity-CharityTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-Charity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Charity.debug.xcconfig"; path = "Target Support Files/Pods-Charity/Pods-Charity.debug.xcconfig"; sourceTree = "<group>"; };
+		46842F3DF39E4C6EB0259C44 /* PlaypenSans-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "PlaypenSans-Thin.ttf"; path = "../assets/fonts/PlaypenSans-Thin.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-Charity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Charity.release.xcconfig"; path = "Target Support Files/Pods-Charity/Pods-Charity.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-Charity-CharityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Charity-CharityTests.debug.xcconfig"; path = "Target Support Files/Pods-Charity-CharityTests/Pods-Charity-CharityTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-Charity.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Charity.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C6D6D9936D9406E94EE7F35 /* PlaypenSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "PlaypenSans-Regular.ttf"; path = "../assets/fonts/PlaypenSans-Regular.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Charity/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		896CEF2EB35D4F389D14C950 /* PlaypenSans-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "PlaypenSans-ExtraLight.ttf"; path = "../assets/fonts/PlaypenSans-ExtraLight.ttf"; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-Charity-CharityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Charity-CharityTests.release.xcconfig"; path = "Target Support Files/Pods-Charity-CharityTests/Pods-Charity-CharityTests.release.xcconfig"; sourceTree = "<group>"; };
+		B884352185E34C4FA3F19145 /* PlaypenSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "PlaypenSans-SemiBold.ttf"; path = "../assets/fonts/PlaypenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		D79B56392B554FF69A76190E /* PlaypenSans-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "PlaypenSans-Light.ttf"; path = "../assets/fonts/PlaypenSans-Light.ttf"; sourceTree = "<group>"; };
+		DE9A0C6FCA1544EB9DBA2CA8 /* PlaypenSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "PlaypenSans-Bold.ttf"; path = "../assets/fonts/PlaypenSans-Bold.ttf"; sourceTree = "<group>"; };
+		EBAB3C79F4F24B798C192371 /* PlaypenSans-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "PlaypenSans-ExtraBold.ttf"; path = "../assets/fonts/PlaypenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EDCE334EA89C499387EF904C /* PlaypenSans-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "PlaypenSans-Medium.ttf"; path = "../assets/fonts/PlaypenSans-Medium.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +138,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				A611FB00094A4D83A225823C /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -135,6 +152,22 @@
 				00E356EE1AD99517003FC87E /* CharityTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A611FB00094A4D83A225823C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DE9A0C6FCA1544EB9DBA2CA8 /* PlaypenSans-Bold.ttf */,
+				EBAB3C79F4F24B798C192371 /* PlaypenSans-ExtraBold.ttf */,
+				896CEF2EB35D4F389D14C950 /* PlaypenSans-ExtraLight.ttf */,
+				D79B56392B554FF69A76190E /* PlaypenSans-Light.ttf */,
+				EDCE334EA89C499387EF904C /* PlaypenSans-Medium.ttf */,
+				7C6D6D9936D9406E94EE7F35 /* PlaypenSans-Regular.ttf */,
+				B884352185E34C4FA3F19145 /* PlaypenSans-SemiBold.ttf */,
+				46842F3DF39E4C6EB0259C44 /* PlaypenSans-Thin.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
@@ -244,6 +277,14 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				FCC09C023BED47ADB2F15A82 /* PlaypenSans-Bold.ttf in Resources */,
+				5F3419561EAC4786B21A40D9 /* PlaypenSans-ExtraBold.ttf in Resources */,
+				1EA04C2B96AF413A8D2C07DE /* PlaypenSans-ExtraLight.ttf in Resources */,
+				7D273FAF49A54A6A9286238D /* PlaypenSans-Light.ttf in Resources */,
+				18A9BC204630423A9003DD37 /* PlaypenSans-Medium.ttf in Resources */,
+				08808E95DCA548D3B94DDAAE /* PlaypenSans-Regular.ttf in Resources */,
+				04959D888DA44BE3853F80EA /* PlaypenSans-SemiBold.ttf in Resources */,
+				14E08DE8A67342AAB14101D0 /* PlaypenSans-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -572,6 +613,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
+					_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -598,6 +640,11 @@
 					"-DFOLLY_NO_CONFIG",
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Wl",
+					"-ld_classic",
 				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
@@ -640,6 +687,10 @@
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION,
+				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -663,6 +714,11 @@
 					"-DFOLLY_NO_CONFIG",
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Wl",
+					"-ld_classic",
 				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
