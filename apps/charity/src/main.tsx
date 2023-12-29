@@ -1,4 +1,13 @@
+
+
 import { AppRegistry } from 'react-native';
+
 import App from './app/App';
 
-AppRegistry.registerComponent('Charity', () => App);
+function Main() {
+  return (
+        <App />
+  );
+}
+
+AppRegistry.registerComponent('Charity', () => Main);

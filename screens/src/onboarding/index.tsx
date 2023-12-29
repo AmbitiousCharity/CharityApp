@@ -2,7 +2,7 @@ import { GradientButton, Separator } from '@charity/ui';
 import { Text, View } from 'react-native';
 import { styles } from './onoarding.styles';
 
-export const Onboarding = () => {
+export const Onboarding = ({ navigation }: { navigation: any }) => {
   return (
     <View style={styles.container}>
       <View style={styles.innerContainer}>
@@ -18,7 +18,11 @@ export const Onboarding = () => {
         </View>
         <View>
           <View style={{ flex: 1, backgroundColor: '#fff' }}>
-            <GradientButton />
+            <GradientButton
+              onPress={() => {
+                navigation.navigate('Profile');
+              }}
+            />
           </View>
         </View>
       </View>

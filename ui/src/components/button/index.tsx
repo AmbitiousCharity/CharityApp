@@ -18,12 +18,14 @@ const styles = StyleSheet.create({
   },
 });
 
-export const GradientButton = ({  }) => {
+export const GradientButton = ({ onPress }) => {
   return (
-    <Pressable style={styles.button} onPress={()=>{
-        
-    }}>
-      <LinearGradient colors={['red','orange']} start={{ x: 0, y: 0 }} end={{ x: 1, y: 0 }}>
+    <Pressable style={styles.button} onPress={onPress}>
+      <LinearGradient
+        colors={['red', 'orange']}
+        start={{ x: 0, y: 0 }}
+        end={{ x: 1, y: 0 }}
+      >
         <Text style={styles.buttonText}>Click Me</Text>
       </LinearGradient>
     </Pressable>
